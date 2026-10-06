@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Geist", sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  --color-ink: #15171c;
+  --color-muted: #5b6070;
+  --color-placeholder: #8a8f9c;
+  --color-line: #e3e6ec;
+  --color-surface: #f4f5f8;
+  --color-disabled: #eceef2;
+  --color-accent: #0b6bef;
+  --color-accent-hover: #0858c7;
+  --color-danger: #c62828;
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  margin: 0;
+  width: 360px;
+}
